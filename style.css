@@ -1,3 +1,8 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap");
+
+body {
+  font-family: "Inter", sans-serif;
+}
 .main-section {
   background-color: rgb(88, 38, 158);
   min-height: 400px;
@@ -31,11 +36,34 @@
 
 .row-container {
   display: flex;
+  justify-content: space-around;
 }
 .small-boxes {
-}
-/* .img-2-box {
   display: flex;
-  flex-grow: 0.3;
-  width: 30px;
-} */
+}
+
+.small-boxes h3 {
+  font-size: 1.3rem;
+  flex-grow: 0.2;
+  min-width: 300px;
+}
+
+.cards-container {
+  min-height: 500px;
+  min-width: 500px;
+  display: flex;
+  padding: 150px;
+  background-color: rgb(235, 235, 235);
+  justify-content: space-evenly;
+}
+
+.card {
+  width: 200px;
+  height: 320px;
+  flex-grow: 1;
+}
+
+.card > img {
+  width: 100%;
+  object-fit: cover;
+}
