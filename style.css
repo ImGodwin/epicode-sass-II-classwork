@@ -1,0 +1,41 @@
+.main-section {
+  background-color: rgb(88, 38, 158);
+  min-height: 400px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.main-section-flexbox {
+  display: flex;
+  align-items: center;
+}
+
+.main-section-text-box {
+  flex-grow: 0.5;
+}
+
+.main-section-text-box > h1 {
+  color: white;
+}
+
+.narration {
+  color: white;
+  opacity: 0.7;
+}
+
+.main-section > img {
+  min-width: 100px;
+  min-height: 100px;
+  justify-content: flex-end;
+}
+
+.row-container {
+  display: flex;
+}
+.small-boxes {
+}
+/* .img-2-box {
+  display: flex;
+  flex-grow: 0.3;
+  width: 30px;
+} */
